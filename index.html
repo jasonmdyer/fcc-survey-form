@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Account Registration Form</h1>
+  <p id="description">Please fill out this form with the required information</p>
+  <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name: <input id="name" name="name" type="text" placeholder="First and Last" required /></label>
+        <label id="email-label" for="email">Email: <input id="email" name="email" type="email" placeholder="johndoe@gmail.com" required/></label>
+        <label id="number-label" for="age">Age: <input id="number" name="age" type="number" min="13" max="100" placeholder=" " required/>
+
+
+<label for="referrer">How did you hear about us?
+  <select id="dropdown" name="referrer">
+    <option value="">(select one)</option>
+    <option value="1">YouTube Ad</option>
+    <option value="2">Magazine</option>
+    <option value="3">Forum</option>
+    <option value="4">Other</option>
+  </select>
+</label>
+ <legend>Account Type (required) <legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" value="personal" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" value="business" /> Business</label>
+<section>
+<label for="bio">Tell us about yourself:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+
+
+  <label for="terms-and-conditions">
+<input class="inline" id="terms-and-conditions" type="checkbox" value="accept" required name="terms-and-conditions" />I accept the <a href="https://google.com">terms and conditions</a>
+</label>
+<section>
+<label for="terms-and-conditions">
+<input class="inline" id="terms-and-conditions" type="checkbox" value="deny" name="terms-and-conditions" />I do NOT accept the <a href="https://google.com">terms and conditions</a>
+</label>
+<input id="submit" type="submit" value="Submit" />
+
+        
+</html>
